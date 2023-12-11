@@ -6,7 +6,7 @@
 
 }*/
 
-public class Report5 {
+/*public class Report5 {
     public static void main(String[] args) {
         // 条件1: String型変数 str を宣言し、初期値として null を代入する。
         String str = null;
@@ -20,4 +20,14 @@ public class Report5 {
             System.out.println(err.getMessage());
         }
     }
+}*/
+
+public class Report5 {
+    public static void main(String[] args) {
+    
+    String str = "壱百満";
+    int value = Integer.parseInt(str);
+    System.out.println(value);
+    }
+
 }
