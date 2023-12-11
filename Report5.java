@@ -17,7 +17,6 @@ public class Report5 {
         } catch (java.lang.NullPointerException err) {
             // NullPointerExceptionが発生した場合の処理
             System.out.println("java.lang.NullPointerExceptionが発生しました。");
-            err.printStackTrace();
             System.out.println(err.getMessage());
         }
     }
